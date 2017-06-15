@@ -1,6 +1,6 @@
 {
     "name": "acquia/reservoir-project",
-    "description": "Project template for Drupal 8 sites built with the Reservoir distrobution.",
+    "description": "Project template for Drupal 8 sites built with the Reservoir distribution.",
     "type": "project",
     "license": "GPL2",
     "minimum-stability": "dev",
@@ -14,6 +14,7 @@
   ],
   "require": {
     "composer/installers": "^1.0",
+    "cweagans/composer-patches": "~1.0",
     "drupal-composer/drupal-scaffold": "^2.0.0",
     "acquia/reservoir": "dev-composer-install"
   },
