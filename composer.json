@@ -6,26 +6,16 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": [
-      {
-        "type": "composer",
-        "url": "https://packages.drupal.org/8"
-      },
-      {
-        "type": "package",
-        "package": {
-          "name": "acquia/reservoir",
-          "version": "dev-composer-install",
-          "source": {
-            "url": "git@github.com:mattgrill/reservoir.git",
-            "type": "git",
-            "reference": "composer-install"
-          }
+       {"type": "composer", "url": "https://repo.packagist.com/reservoir/"},
+        {
+          "type": "composer",
+          "url": "https://packages.drupal.org/8"
         }
-      }
   ],
   "require": {
     "composer/installers": "^1.0",
-    "acquia/reservoir": "dev-composer-install as 1.0.0"
+    "drupal-composer/drupal-scaffold": "^2.0.0",
+    "acquia/reservoir": "dev-composer-install"
   },
   "extra": {
       "installer-paths": {
