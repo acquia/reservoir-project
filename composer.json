@@ -16,7 +16,7 @@
     "composer/installers": "^1.0",
     "cweagans/composer-patches": "~1.0",
     "drupal-composer/drupal-scaffold": "^2.0.0",
-    "acquia/reservoir": "dev-composer-install"
+    "acquia/reservoir": "dev-8.x-1.x"
   },
   "extra": {
       "installer-paths": {
