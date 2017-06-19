@@ -6,7 +6,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": [
-       {"type": "composer", "url": "https://repo.packagist.com/reservoir/"},
         {
           "type": "composer",
           "url": "https://packages.drupal.org/8"
