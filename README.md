@@ -1,6 +1,6 @@
+![Reservoir - Drupal distribution](https://raw.githubusercontent.com/acquia/reservoir-project/assets/reservoir.png)
+
 # Reservoir: Composer installer
-
-
 
 This is a Composer-based installer for the [Reservoir](https://github.com/acquia/reservoir) Drupal distribution.
 
