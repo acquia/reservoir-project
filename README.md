@@ -8,7 +8,7 @@ This is a Composer-based installer for the [Reservoir](https://github.com/acquia
 
 ## Get started
 ```
-$ composer create-project acquia/reservoir-project MY_PROJECT
+$ composer create-project acquia/reservoir-project MY_PROJECT --stability=alpha
 ```
 Composer will create a new directory called `MY_PROJECT` containing a `docroot` directory with a full Reservoir codebase therein.
 
