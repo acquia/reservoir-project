@@ -1,40 +1,38 @@
 {
-    "name": "acquia/reservoir-project",
-    "description": "Project template for Drupal 8 sites built with the Reservoir distribution.",
-    "type": "project",
-    "license": "GPL2",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-          "type": "composer",
-          "url": "https://packages.drupal.org/8"
-        }
-  ],
+  "name": "acquia/reservoir-project",
+  "description": "Project template for Drupal 8 sites built with the Reservoir distribution.",
+  "type": "project",
+  "license": "GPL2",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [{
+    "type": "composer",
+    "url": "https://packages.drupal.org/8"
+  }],
   "require": {
     "composer/installers": "^1.0",
     "cweagans/composer-patches": "~1.0",
     "drupal-composer/drupal-scaffold": "^2.0.0",
-    "acquia/reservoir": "^1.0.0"
+    "acquia/reservoir": "1.0.0-alpha2"
   },
   "extra": {
-      "installer-paths": {
-          "docroot/core": [
-              "type:drupal-core"
-          ],
-          "docroot/modules/contrib/{$name}": [
-              "type:drupal-module"
-          ],
-          "docroot/profiles/contrib/{$name}": [
-              "type:drupal-profile"
-          ],
-          "docroot/themes/contrib/{$name}": [
-              "type:drupal-theme"
-          ],
-          "drush/contrib/{$name}": [
-              "type:drupal-drush"
-          ]
-      },
-      "enable-patching": true
+    "installer-paths": {
+      "docroot/core": [
+        "type:drupal-core"
+      ],
+      "docroot/modules/contrib/{$name}": [
+        "type:drupal-module"
+      ],
+      "docroot/profiles/contrib/{$name}": [
+        "type:drupal-profile"
+      ],
+      "docroot/themes/contrib/{$name}": [
+        "type:drupal-theme"
+      ],
+      "drush/contrib/{$name}": [
+        "type:drupal-drush"
+      ]
+    },
+    "enable-patching": true
   }
 }
