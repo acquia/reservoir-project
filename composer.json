@@ -2,7 +2,7 @@
   "name": "acquia/reservoir-project",
   "description": "Project template for Drupal 8 sites built with the Reservoir distribution.",
   "type": "project",
-  "license": "GPL2",
+  "license": "GPL-2.0-or-later",
   "minimum-stability": "dev",
   "prefer-stable": true,
   "repositories": [{
